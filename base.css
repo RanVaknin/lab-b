@@ -1,0 +1,244 @@
+@media (max-width: 480px) {
+    #wrapper{
+        display:flex;
+        flex-direction:column;
+
+        
+    }
+    .divs{
+        box-sizing: border-box;
+        border: solid rgb(0, 0, 0) 1px;
+        border-bottom:0;
+        text-align:center;
+    }
+    
+    header{
+        flex:auto;
+        height:8.65vh;
+        line-height:8.65vh;
+        background-color:red;
+    }
+
+    #b{
+        flex:auto;
+        height:17.30vh;
+        line-height:17.30vh;
+        background-color:lightcoral
+    }
+    #c{
+        flex:auto;
+        height:14.41vh;
+        line-height:14.41vh;
+        background-color: rgb(99, 10, 10);
+    }
+    #d{
+        flex:auto;
+        height:14.41vh;
+        line-height:14.41vh;
+        background-color:rgb(95, 36, 36)
+    }
+    #four_pieces{
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction:row;
+        height:57.67vh;
+    }
+    #e{
+        flex:auto;
+        width:50%;
+        border-right: 0;
+        line-height:28.835vh;
+        background-color:rgb(156, 52, 52)
+    }
+    #f{
+        flex:auto;
+        width:50%;
+        line-height:28.835vh;
+        background-color:rgb(139, 44, 44)
+    }
+    #g{
+        flex:auto;
+        width:50%;
+        border-right: 0;
+        line-height:28.835vh;
+        background-color:rgb(170, 54, 54)
+    }
+    #h{
+        flex:auto;
+        width:50%;
+        line-height:28.835vh;
+        background-color:rgb(161, 66, 66)
+    }
+
+
+    #i{
+        border-bottom: solid rgb(0, 0, 0) 1px;
+        height:9.22vh;
+        line-height:9.22vh;
+        background-color:rgb(94, 34, 34)
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    #wrapper{
+        display:flex;
+        flex-direction:column;
+
+        
+    }
+    .divs{
+        box-sizing: border-box;
+        border: solid rgb(0, 0, 0) 1px;
+        border-bottom:0;
+        text-align:center;
+    }
+    
+    header{
+        flex:auto;
+        height:8.65vh;
+        line-height:8.65vh;
+        background-color:rgb(15, 87, 65);
+    }
+
+    #b{
+        flex:auto;
+        height:17.30vh;
+        line-height:17.30vh;
+        background-color:rgb(19, 99, 75);
+    }
+    #c{
+        flex:auto;
+        height:14.41vh;
+        line-height:14.41vh;
+        background-color:rgb(28, 110, 86);
+    }
+    #d{
+        flex:auto;
+        height:14.41vh;
+        line-height:14.41vh;
+        background-color:rgb(49, 136, 110);
+    }
+    #four_pieces{
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction:row;
+        height:57.67vh;
+    }
+    #e{
+        flex:auto;
+        width:50%;
+        border-right: 0;
+        line-height:28.835vh;
+        background-color:rgb(49, 179, 140);
+    }
+    #f{
+        flex:auto;
+        width:50%;
+        line-height:28.835vh;
+        background-color:rgb(53, 165, 131);
+    }
+    #g{
+        flex:auto;
+        width:50%;
+        border-right: 0;
+        line-height:28.835vh;
+        background-color:rgb(44, 148, 117);
+    }
+    #h{
+        flex:auto;
+        width:50%;
+        line-height:28.835vh;
+        background-color:rgb(64, 179, 144);
+    }
+
+
+    #i{
+        border-bottom: solid rgb(0, 0, 0) 1px;
+        height:9.22vh;
+        line-height:9.22vh;
+        background-color:rgb(74, 218, 175);
+    }
+}
+
+@media (min-width: 767px) {
+
+    #wrapper{
+        display:grid;
+        flex-direction:column;
+
+        
+    }
+    .divs{
+        box-sizing: border-box;
+        border: solid rgb(0, 0, 0) 1px;
+        border-bottom:0;
+        text-align:center;
+    }
+    
+    header{
+        flex:auto;
+        height:8.65vh;
+        line-height:8.65vh;
+        background-color:rgb(15, 87, 65);
+    }
+
+    #b{
+        flex:auto;
+        height:17.30vh;
+        line-height:17.30vh;
+        background-color:rgb(19, 99, 75);
+    }
+    #c{
+        flex:auto;
+        height:14.41vh;
+        line-height:14.41vh;
+        background-color:rgb(28, 110, 86);
+    }
+    #d{
+        flex:auto;
+        height:14.41vh;
+        line-height:14.41vh;
+        background-color:rgb(49, 136, 110);
+    }
+    #four_pieces{
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction:row;
+        height:57.67vh;
+    }
+    #e{
+        flex:auto;
+        width:50%;
+        border-right: 0;
+        line-height:28.835vh;
+        background-color:rgb(49, 179, 140);
+    }
+    #f{
+        flex:auto;
+        width:50%;
+        line-height:28.835vh;
+        background-color:rgb(53, 165, 131);
+    }
+    #g{
+        flex:auto;
+        width:50%;
+        border-right: 0;
+        line-height:28.835vh;
+        background-color:rgb(44, 148, 117);
+    }
+    #h{
+        flex:auto;
+        width:50%;
+        line-height:28.835vh;
+        background-color:rgb(64, 179, 144);
+    }
+
+
+    #i{
+        border-bottom: solid rgb(0, 0, 0) 1px;
+        height:9.22vh;
+        line-height:9.22vh;
+        background-color:rgb(74, 218, 175);
+    }
+}
